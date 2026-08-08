@@ -647,9 +647,9 @@
     <!-- ===== CONTENEDOR DE FUEGOS ARTIFICIALES ===== -->
     <div class="fireworks-container" id="fireworksContainer"></div>
 
-    <!-- ===== AUDIO (invisible) ===== -->
+    <!-- ===== AUDIO (invisible) - AHORA BUSCA EN LA RAÍZ ===== -->
     <audio id="audioPlayer" loop preload="auto">
-        <source src="audio/ella-es-mi-fiesta.mp3" type="audio/mpeg" />
+        <source src="ella-es-mi-fiesta.mp3" type="audio/mpeg" />
         Tu navegador no soporta el elemento de audio.
     </audio>
 
@@ -1390,7 +1390,7 @@
         console.log('%c Y así empezó todo... y esto es solo el comienzo. ', 'font-size: 14px; color: #888;');
         console.log('📸 IDs de fotos esperados:');
         moments.forEach(m => console.log(`   - ${m.id}.jpg y ${m.id}-2.jpg`));
-        console.log('🎵 Audio esperado: audio/ella-es-mi-fiesta.mp3');
+        console.log('🎵 Audio esperado: ella-es-mi-fiesta.mp3 (en la raíz)');
         console.log('💖 ¡Disfruta el viaje!');
     </script>
 
